@@ -4,7 +4,7 @@ import { Button } from "../components/ui/button";
 import { ShoppingCart, Filter } from "lucide-react";
 import { useCart } from "../context/CartContext";
 import { useAuth } from "../context/AuthContext";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 export function ShopPage() {
   const { addToCart } = useCart();
